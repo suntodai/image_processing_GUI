@@ -1,0 +1,239 @@
+﻿Build started 2014/03/09 13:30:45.
+     1>Project "C:\Users\Chao Sun\Desktop\MFC\POCS\demo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Release\demo.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release\demo.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt demoView.cpp motionES.cpp myfile.cpp POCS.CPP segment.cpp transform.cpp
+         demoView.cpp
+     1>demoView.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>c:\users\chao sun\desktop\mfc\pocs\transform.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>c:\users\chao sun\desktop\mfc\pocs\segment.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>c:\users\chao sun\desktop\mfc\pocs\imgGrayTrans.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>c:\users\chao sun\desktop\mfc\pocs\morphology.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>c:\users\chao sun\desktop\mfc\pocs\noise.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>c:\users\chao sun\desktop\mfc\pocs\motionES.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>demoView.cpp(383): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>demoView.cpp(385): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>demoView.cpp(387): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>demoView.cpp(387): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>demoView.cpp(456): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>demoView.cpp(457): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>demoView.cpp(457): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>demoView.cpp(458): error C2668: 'sqrt' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(589): could be 'long double sqrt(long double)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(541): or       'float sqrt(float)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(127): or       'double sqrt(double)'
+                 while trying to match the argument list '(int)'
+     1>demoView.cpp(458): error C2668: 'sqrt' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(589): could be 'long double sqrt(long double)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(541): or       'float sqrt(float)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(127): or       'double sqrt(double)'
+                 while trying to match the argument list '(int)'
+     1>demoView.cpp(459): error C2668: 'sqrt' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(589): could be 'long double sqrt(long double)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(541): or       'float sqrt(float)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(127): or       'double sqrt(double)'
+                 while trying to match the argument list '(int)'
+     1>demoView.cpp(459): error C2668: 'sqrt' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(589): could be 'long double sqrt(long double)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(541): or       'float sqrt(float)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(127): or       'double sqrt(double)'
+                 while trying to match the argument list '(int)'
+     1>demoView.cpp(885): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>demoView.cpp(1049): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1049): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1049): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1050): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1050): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1055): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1055): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1055): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1056): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1085): warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>demoView.cpp(1136): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1136): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1136): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1137): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1137): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1142): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1142): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1142): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1143): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1223): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1223): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1223): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1224): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1224): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1229): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1229): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1229): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1230): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1310): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1310): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1310): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1311): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1311): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1316): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1316): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1316): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1317): error C2065: 'i' : undeclared identifier
+     1>demoView.cpp(1949): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>demoView.cpp(1949): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>demoView.cpp(2019): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>demoView.cpp(2019): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>demoView.cpp(2089): warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>demoView.cpp(2091): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>demoView.cpp(2129): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>demoView.cpp(2130): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>demoView.cpp(2130): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>demoView.cpp(2311): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>demoView.cpp(2311): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>demoView.cpp(2366): error C2001: newline in constant
+     1>demoView.cpp(2367): error C2146: syntax error : missing ')' before identifier 'pDocNew'
+     1>demoView.cpp(2396): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>demoView.cpp(2396): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>demoView.cpp(2452): error C2001: newline in constant
+     1>demoView.cpp(2453): error C2146: syntax error : missing ')' before identifier 'pDocNew'
+     1>demoView.cpp(2524): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>demoView.cpp(2549): error C2001: newline in constant
+     1>demoView.cpp(2550): error C2146: syntax error : missing ')' before identifier 'pDocNew'
+         motionES.cpp
+     1>motionES.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>motionES.cpp(6): warning C4627: '#include "motionES.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>motionES.cpp(710): warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>motionES.cpp(992): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         myfile.cpp
+     1>myfile.cpp(141): error C2039: 'WriteHuge' : is not a member of 'CFile'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(989) : see declaration of 'CFile'
+     1>myfile.cpp(183): warning C4244: '=' : conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+     1>myfile.cpp(207): error C2039: 'ReadHuge' : is not a member of 'CFile'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(989) : see declaration of 'CFile'
+         POCS.CPP
+     1>POCS.CPP : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>POCS.CPP(1): warning C4627: '#include "POCS.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>POCS.CPP(2): warning C4627: '#include "segment.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>POCS.CPP(3): warning C4627: '#include "transform.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>POCS.CPP(4): warning C4627: '#include "motionES.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>POCS.CPP(5): warning C4627: '#include "GenLR.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>POCS.CPP(205): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         segment.cpp
+     1>c:\users\chao sun\desktop\mfc\pocs\segment.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>segment.cpp(24): error C2668: 'sqrt' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(589): could be 'long double sqrt(long double)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(541): or       'float sqrt(float)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(127): or       'double sqrt(double)'
+                 while trying to match the argument list '(int)'
+     1>segment.cpp(25): error C2668: 'sqrt' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(589): could be 'long double sqrt(long double)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(541): or       'float sqrt(float)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(127): or       'double sqrt(double)'
+                 while trying to match the argument list '(int)'
+     1>segment.cpp(51): error C2668: 'sqrt' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(589): could be 'long double sqrt(long double)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(541): or       'float sqrt(float)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(127): or       'double sqrt(double)'
+                 while trying to match the argument list '(int)'
+     1>segment.cpp(52): error C2668: 'sqrt' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(589): could be 'long double sqrt(long double)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(541): or       'float sqrt(float)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(127): or       'double sqrt(double)'
+                 while trying to match the argument list '(int)'
+     1>segment.cpp(86): error C2668: 'sqrt' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(589): could be 'long double sqrt(long double)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(541): or       'float sqrt(float)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(127): or       'double sqrt(double)'
+                 while trying to match the argument list '(int)'
+     1>segment.cpp(87): error C2668: 'sqrt' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(589): could be 'long double sqrt(long double)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(541): or       'float sqrt(float)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(127): or       'double sqrt(double)'
+                 while trying to match the argument list '(int)'
+         transform.cpp
+     1>transform.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>c:\users\chao sun\desktop\mfc\pocs\transform.h : warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss
+     1>transform.cpp(15): error C2668: 'pow' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(583): could be 'long double pow(long double,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(535): or       'float pow(float,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(497): or       'double pow(double,int)'
+                 while trying to match the argument list '(int, int)'
+     1>transform.cpp(16): error C2668: 'pow' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(583): could be 'long double pow(long double,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(535): or       'float pow(float,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(497): or       'double pow(double,int)'
+                 while trying to match the argument list '(int, int)'
+     1>transform.cpp(17): error C2668: 'pow' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(583): could be 'long double pow(long double,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(535): or       'float pow(float,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(497): or       'double pow(double,int)'
+                 while trying to match the argument list '(int, int)'
+     1>transform.cpp(28): error C2668: 'pow' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(583): could be 'long double pow(long double,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(535): or       'float pow(float,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(497): or       'double pow(double,int)'
+                 while trying to match the argument list '(int, int)'
+     1>transform.cpp(29): error C2668: 'pow' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(583): could be 'long double pow(long double,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(535): or       'float pow(float,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(497): or       'double pow(double,int)'
+                 while trying to match the argument list '(int, int)'
+     1>transform.cpp(34): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>transform.cpp(35): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>transform.cpp(97): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>transform.cpp(115): error C2668: 'pow' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(583): could be 'long double pow(long double,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(535): or       'float pow(float,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(497): or       'double pow(double,int)'
+                 while trying to match the argument list '(int, int)'
+     1>transform.cpp(116): error C2668: 'pow' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(583): could be 'long double pow(long double,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(535): or       'float pow(float,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(497): or       'double pow(double,int)'
+                 while trying to match the argument list '(int, int)'
+     1>transform.cpp(117): error C2668: 'pow' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(583): could be 'long double pow(long double,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(535): or       'float pow(float,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(497): or       'double pow(double,int)'
+                 while trying to match the argument list '(int, int)'
+     1>transform.cpp(128): error C2668: 'pow' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(583): could be 'long double pow(long double,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(535): or       'float pow(float,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(497): or       'double pow(double,int)'
+                 while trying to match the argument list '(int, int)'
+     1>transform.cpp(129): error C2668: 'pow' : ambiguous call to overloaded function
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(583): could be 'long double pow(long double,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(535): or       'float pow(float,int)'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(497): or       'double pow(double,int)'
+                 while trying to match the argument list '(int, int)'
+     1>transform.cpp(134): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>transform.cpp(135): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>transform.cpp(194): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>transform.cpp(195): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>transform.cpp(197): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>transform.cpp(197): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>transform.cpp(199): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>transform.cpp(200): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>transform.cpp(204): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>transform.cpp(210): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>transform.cpp(234): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>transform.cpp(235): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>transform.cpp(287): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>transform.cpp(288): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>transform.cpp(309): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>transform.cpp(310): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>transform.cpp(373): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>transform.cpp(374): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>transform.cpp(498): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>transform.cpp(499): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+     1>Done Building Project "C:\Users\Chao Sun\Desktop\MFC\POCS\demo.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.97

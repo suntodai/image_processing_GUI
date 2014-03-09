@@ -1,0 +1,2 @@
+//void GenLR(unsigned char* lpIn,unsigned char* lpOut,int width, int height,bool noiseAuto,double noiseVar);
+void GenLR(unsigned char* lpIn,unsigned char* lpOut,int width, int height,bool noiseAuto,double noiseVar, int s1_rand, int s2_rand,int s3_rand, int s4_rand);

@@ -1,0 +1,10 @@
+f = fopen('a.dat','r');
+im = fread(f,inf);
+x = zeros(640,240);
+for i = 1:640
+    for j= 1:480
+      x(i,j)=mod(im(i+(j-1)*640),8)*2^5+mod(im(i+(j-1)*640),8);
+    end
+end
+
+imshow(x,[]);

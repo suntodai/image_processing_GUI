@@ -1,0 +1,24 @@
+function im_interp
+ref = imread('lena.png');
+[x, y] = meshgrid(1:size(ref,2), 1:size(ref,1)); 
+[X, Y] = meshgrid(1:2.*size(ref,2), 1:2.*size(ref,1)); 
+upref_nearest = interp2(x,y,double(ref),X./2,Y./2,'nearest');
+upref_bilinear = interp2(x,y,double(ref),X./2,Y./2,'bilinear');
+upref_bicubic = interp2(x,y,double(ref),X./2,Y./2,'bicubic');
+
+subplot(2,2,1), imagesc(im(41:168, 181:308), range); axis image off
+set(gca, 'FontSize', 8);
+title('Original Image', 'FontSize', 10.5);
+
+subplot(2,2,2), imagesc(nim(41:168, 181:308), range); axis image off
+set(gca, 'FontSize', 8);
+title(sprintf('Noisy Image (SNR = %.2f dB)', ...
+              SNR(im, nim)), 'FontSize', 10.5);
+
+subplot(2,2,3), imagesc(wim(41:168, 181:308), range); axis image off
+set(gca, 'FontSize', 8);
+title(sprintf('Denoise using Wavelets (SNR = %.2f dB)', ...
+              SNR(im, wim)), 'FontSize', 10.5);
+
+subplot(2,2,4), imagesc(cim(41:168, 181:308), range); axis image off
+set(gca, 'FontSize', 8);

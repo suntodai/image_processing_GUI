@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: demo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "E:\360data\重要数据\用户临~1\RSPF4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\C++界面\Process_demo\demoView.cpp"
+]
+Creating command line "cl.exe @"E:\360data\重要数据\用户临~1\RSPF4.tmp"" 
+Creating temporary file "E:\360data\重要数据\用户临~1\RSPF5.tmp" with contents
+[
+/nologo /stack:0x1000000 /subsystem:windows /incremental:yes /pdb:"Debug/demo.pdb" /debug /machine:I386 /out:"Debug/demo.exe" /pdbtype:sept 
+".\Debug\ChildFrm.obj"
+".\Debug\DefineMaskDlg.obj"
+".\Debug\demo.obj"
+".\Debug\demoDoc.obj"
+".\Debug\demoView.obj"
+".\Debug\dibapi.obj"
+".\Debug\GenLR.obj"
+".\Debug\imgGrayTrans.obj"
+".\Debug\linearStretch.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MaskDlg.obj"
+".\Debug\morphology.obj"
+".\Debug\morphologyDlg.obj"
+".\Debug\motionES.obj"
+".\Debug\MutiOpenDocManager.obj"
+".\Debug\myfile.obj"
+".\Debug\noise.obj"
+".\Debug\noiseDlg.obj"
+".\Debug\POCS.OBJ"
+".\Debug\RotateDlg.obj"
+".\Debug\segment.obj"
+".\Debug\shift.obj"
+".\Debug\StdAfx.obj"
+".\Debug\threshDlg.obj"
+".\Debug\transform.obj"
+".\Debug\ZoomTimesDlg.obj"
+".\Debug\demo.res"
+]
+Creating command line "link.exe @"E:\360data\重要数据\用户临~1\RSPF5.tmp""
+<h3>Output Window</h3>
+Compiling...
+demoView.cpp
+e:\c++界面\process_demo\demoview.cpp(383) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(385) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(387) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(387) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(456) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(457) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(457) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(458) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(459) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(460) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(885) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(1949) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(1949) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(2019) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(2019) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(2091) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+e:\c++界面\process_demo\demoview.cpp(2092) : warning C4101: 'i' : unreferenced local variable
+e:\c++界面\process_demo\demoview.cpp(2092) : warning C4101: 'j' : unreferenced local variable
+e:\c++界面\process_demo\demoview.cpp(2129) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(2130) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(2130) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(2131) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+e:\c++界面\process_demo\demoview.cpp(2311) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+e:\c++界面\process_demo\demoview.cpp(2311) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+e:\c++界面\process_demo\demoview.cpp(2396) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+e:\c++界面\process_demo\demoview.cpp(2396) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+e:\c++界面\process_demo\demoview.cpp(2524) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Linking...
+Creating temporary file "E:\360data\重要数据\用户临~1\RSPF6.tmp" with contents
+[
+/nologo /o"Debug/demo.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\ChildFrm.sbr"
+".\Debug\DefineMaskDlg.sbr"
+".\Debug\demo.sbr"
+".\Debug\demoDoc.sbr"
+".\Debug\demoView.sbr"
+".\Debug\dibapi.sbr"
+".\Debug\GenLR.sbr"
+".\Debug\imgGrayTrans.sbr"
+".\Debug\linearStretch.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\MaskDlg.sbr"
+".\Debug\morphology.sbr"
+".\Debug\morphologyDlg.sbr"
+".\Debug\motionES.sbr"
+".\Debug\MutiOpenDocManager.sbr"
+".\Debug\myfile.sbr"
+".\Debug\noise.sbr"
+".\Debug\noiseDlg.sbr"
+".\Debug\POCS.SBR"
+".\Debug\RotateDlg.sbr"
+".\Debug\segment.sbr"
+".\Debug\shift.sbr"
+".\Debug\threshDlg.sbr"
+".\Debug\transform.sbr"
+".\Debug\ZoomTimesDlg.sbr"]
+Creating command line "bscmake.exe @"E:\360data\重要数据\用户临~1\RSPF6.tmp""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+demo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,31 @@
+function GenLR(im)
+im = double(im);
+imshow(im,[]);title('y')
+Pvariance=[0.00005 0.00015 0.00025 0.00035 0.00045 0.00055 0.00065 0.00075 0.000087 0.00095];
+Pangle   =[0.005 0.015 0.025 0.035 0.045 0.055 0.065 0.075 0.085 0.095... 
+                        -0.005 -0.015 -0.025 -0.035 -0.045 -0.055 -0.065 -0.075 -0.085 -0.095];
+PshiftX  =[0.05 0.15 0.25 0.35 0.45,0.55 0.65 0.75 0.85 0.95...
+                        -0.05 -0.15 -0.25 -0.35 -0.45 -0.55 -0.65 -0.75 -0.85 -0.95]; 
+PshiftY  =[0.05 0.15 0.25 0.35 0.45,0.55 0.65 0.75 0.85 0.95...
+                        -0.05 -0.15 -0.25 -0.35 -0.45 -0.55 -0.65 -0.75 -0.85 -0.95]; 
+rand1 = mod(floor(100*rand(1,1)),10);    
+rand2 = mod(floor(100*rand(1,1)),20);
+rand3 = mod(floor(100*rand(1,1)),20);
+rand4 = mod(floor(100*rand(1,1)),20);
+variance = Pvariance(rand1);
+angle    = Pangle(rand2);
+shiftX  =  PshiftX(rand3);
+shiftY  =  PshiftX(rand4);
+
+imRow = size(im,1);
+imCol = size(im,2);
+
+imRot= imrotate(im,angle);
+figure, imshow(imRot,[]);
+imShift = shift(imRot,shiftX,shiftY);
+figure,imshow(imShift,[]);
+im = imresize(imShift,[imRow,imCol],'bilinear');
+figure,imshow(im,[]);
+im = imnoise(im,0,variance);
+figure,imshow(im,[]);
+

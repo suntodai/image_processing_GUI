@@ -1,0 +1,12 @@
+function iterComp
+
+HR1 = imread('house.bmp');
+HR1 = double(HR1);
+HR1 = imresize(HR1,0.5);
+for iter=4:1:10
+    SR1 = imread(strcat('housePOCS',num2str(iter),'.tif')); 
+    SR1 = double(SR1);
+    x(iter-3)= iter;
+    psnr(iter-3) = imgPSNR(SR1,HR1,255);
+end
+plot(x,psnr,'--rs');

@@ -1,0 +1,60 @@
+function POCS(iterNum,LRNum)
+psf = fspecial('gaussian',[5,5],1);
+mbSize = 16;
+p = 7;
+
+HR  = imread('lena.png');
+%HR  = im2double(HR);
+%Éú³ÉLRÍ¼ÏñĞòÁĞ
+for i= 1:1:LRNum
+    LR{i}= GenLR(HR);
+end
+ref  = LR{1};
+imRow = size(ref,1);
+imCol = size(ref,2);
+
+[x, y] = meshgrid(1:imCol, 1:imRow); 
+[X, Y] = meshgrid(1:imCol*2, 1:imRow*2); 
+
+upref  = interp2(x,y,ref,X,Y,'linear');
+imshow(upref,[]);
+
+
+
+
+for iter = 1:1:iterNum
+    for picNum = 2:1:LRNum
+
+       [motionVect, DScomputations] = motionEstDS(LR{picNum}, ref, mbSize, p);
+       imgComp = motionComp(ref, motionVect, mbSize);
+       imgComp = imfilter(imComp,psf,'circular');
+                
+       %%% Loop over entire (low-res) frame 
+       for m2 = 1:imCol/2, 
+           for m1 = 1:imRow/2, 
+           %%% Calculate the residual 
+           R = imgComp(m1,m2) - ref(m1,m2); 
+           R=double(R);
+
+           %%% Calculate new values for the reference frame 
+           if (R>1) 
+              upref(N1-2:N1+2,N2-2:N2+2) = upref(N1-2:N1+2,N2-2:N2+2) + ... 
+              (weights.*(R-1))./sum(sum(weights.^2)); 
+           elseif (R<-1) 
+              upref(N1-2:N1+2,N2-2:N2+2) = upref(N1-2:N1+2,N2-2:N2+2) + ... 
+              (weights.*(R+1))./sum(sum(weights.^2)); 
+           end 
+           end 
+           end
+    end 
+       
+
+   upref(upref<0) = 0; 
+   upref(upref>255) = 255; 
+ 
+end 
+figure,imshow(upref,[]);
+
+
+
+
